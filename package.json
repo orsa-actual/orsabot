@@ -1,5 +1,5 @@
 {
-  "name": "orsa-bot",
+  "name": "orsabot",
   "version": "0.0.1",
   "description": "A bot to connect to the GrapQL endpoint of the Orsa Server",
   "main": "index.js",
