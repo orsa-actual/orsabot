@@ -2,12 +2,12 @@
 
 # Orsa Bot
 
-<a href="https://travis-ci.org/orsa-actual/orsa-bot"><img alt="Travis Status" src="https://img.shields.io/travis/orsa-actual/orsa-bot/master.svg?label=travis"></a>
+<a href="https://travis-ci.org/orsa-actual/orsabot"><img alt="Travis Status" src="https://img.shields.io/travis/orsa-actual/orsabot/master.svg?label=travis"></a>
 <img alt="MIT License" src="https://img.shields.io/packagist/l/doctrine/orm.svg">
 
 The Orsa Bot connects an Orsa Server to Slack.
 
-# Running the orsa-bot
+# Running the orsabot
 
 Install it globally and run `orsabot`.
 
