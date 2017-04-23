@@ -4,8 +4,8 @@
   "description": "A bot to connect to the GrapQL endpoint of the Orsa Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start-dev": "nodemon --watch index.js --watch src index.js",
+    "start": "node bin/orsabot.js",
+    "start-dev": "nodemon --watch index.js --watch src bin/orsabot.js",
     "test": "mocha && istanbul cover _mocha -- --recursive && npm run lint",
     "lint": "eslint index.js src/**/*.js test/**/*.js"
   },

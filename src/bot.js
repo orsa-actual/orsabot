@@ -12,7 +12,7 @@ const {
   about,
 } = require('./intents');
 
-module.exports = (opts) => {
+module.exports = (opts = {}) => {
   const options = assign({
     Wit,
     Botkit,
@@ -38,6 +38,7 @@ module.exports = (opts) => {
       options.console.error('Error connecting to Slack: ', rtmErr);
     } else {
       options.console.log('Connected to Slack');
+
       controller.hears('.*', 'direct_message,direct_mention', (bot, message) => {
         client.message(message.text, {})
           .then((data) => {
